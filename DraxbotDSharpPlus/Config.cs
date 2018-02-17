@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Newtonsoft.Json;
 
-namespace DraxbotDSharpPlus
+namespace DerpBot
 {
     public class Config
     {

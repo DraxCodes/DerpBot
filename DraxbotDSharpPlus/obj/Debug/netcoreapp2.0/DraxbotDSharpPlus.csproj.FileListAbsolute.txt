@@ -9,3 +9,14 @@ C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxbotDSharpPlus\obj\Debug\netco
 C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxbotDSharpPlus\bin\Debug\netcoreapp2.0\DraxbotDSharpPlus.pdb
 C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxbotDSharpPlus\obj\Debug\netcoreapp2.0\DraxbotDSharpPlus.dll
 C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxbotDSharpPlus\obj\Debug\netcoreapp2.0\DraxbotDSharpPlus.pdb
+C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxBot-2.0\DraxbotDSharpPlus\bin\Debug\netcoreapp2.0\DraxbotDSharpPlus.deps.json
+C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxBot-2.0\DraxbotDSharpPlus\bin\Debug\netcoreapp2.0\DraxbotDSharpPlus.runtimeconfig.json
+C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxBot-2.0\DraxbotDSharpPlus\bin\Debug\netcoreapp2.0\DraxbotDSharpPlus.runtimeconfig.dev.json
+C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxBot-2.0\DraxbotDSharpPlus\bin\Debug\netcoreapp2.0\DraxbotDSharpPlus.dll
+C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxBot-2.0\DraxbotDSharpPlus\bin\Debug\netcoreapp2.0\DraxbotDSharpPlus.pdb
+C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxBot-2.0\DraxbotDSharpPlus\obj\Debug\netcoreapp2.0\DraxbotDSharpPlus.csprojResolveAssemblyReference.cache
+C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxBot-2.0\DraxbotDSharpPlus\obj\Debug\netcoreapp2.0\DraxbotDSharpPlus.csproj.CoreCompileInputs.cache
+C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxBot-2.0\DraxbotDSharpPlus\obj\Debug\netcoreapp2.0\DraxbotDSharpPlus.AssemblyInfoInputs.cache
+C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxBot-2.0\DraxbotDSharpPlus\obj\Debug\netcoreapp2.0\DraxbotDSharpPlus.AssemblyInfo.cs
+C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxBot-2.0\DraxbotDSharpPlus\obj\Debug\netcoreapp2.0\DraxbotDSharpPlus.dll
+C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxBot-2.0\DraxbotDSharpPlus\obj\Debug\netcoreapp2.0\DraxbotDSharpPlus.pdb

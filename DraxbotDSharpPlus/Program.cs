@@ -9,14 +9,17 @@ using DSharpPlus.CommandsNext;
 using DSharpPlus.EventArgs;
 using DSharpPlus.CommandsNext.Exceptions;
 using DSharpPlus.Entities;
+using DSharpPlus.VoiceNext;
 
-namespace DraxbotDSharpPlus
+namespace DerpBot
 {
     class Program
     {
         static DiscordClient Client { get; set; }
         public InteractivityModule Interactivity { get; set; }
         public CommandsNextModule Commands { get; set; }
+        static VoiceNextClient Voice;
+        public static DateTime startTime = DateTime.Now;
 
         static void Main(string[] args)
         {
@@ -44,11 +47,12 @@ namespace DraxbotDSharpPlus
             #endregion
 
             Client = new DiscordClient(cfg);
-            
+            Voice = Client.UseVoiceNext();
 
             Client.Ready += Client_Ready;
             Client.GuildAvailable += Client_GuildAvailable;
             Client.ClientErrored += Client_ClientError;
+
 
             Client.UseInteractivity(new InteractivityConfiguration
             {
@@ -60,7 +64,7 @@ namespace DraxbotDSharpPlus
             var commandcfg = new CommandsNextConfiguration
             {
                 StringPrefix = cfgJson.Prefix,
-                EnableDms = true,
+                EnableDms = false,
                 EnableMentionPrefix = true
             };
 
@@ -69,10 +73,14 @@ namespace DraxbotDSharpPlus
             Commands.CommandErrored += Commands_CommandErrored;
 
             Commands.RegisterCommands<UtilityCommands>();
+            Commands.RegisterCommands<Guides>();
+            Commands.RegisterCommands<Music>();
 
             await Client.ConnectAsync();
             await Task.Delay(-1);
         }
+
+        
 
         private Task Client_Ready(ReadyEventArgs e)
         {
@@ -108,6 +116,18 @@ namespace DraxbotDSharpPlus
                 {
                     Title = "Access Denied",
                     Description = $"{emoji} You do not have the required permisions for that command.",
+                    Color = new DiscordColor(0xFF0000)
+                };
+                await e.Context.RespondAsync("", embed: embed);
+            }
+
+            if (e.Exception is CommandNotFoundException)
+            {
+                var emoji = DiscordEmoji.FromName(e.Context.Client, ":warning:");
+                var embed = new DiscordEmbedBuilder
+                {
+                    Title = "Unknow Command",
+                    Description = $"I don't seem to know what that command is.\nPlease use ``//help`` to view my commands.",
                     Color = new DiscordColor(0xFF0000)
                 };
                 await e.Context.RespondAsync("", embed: embed);

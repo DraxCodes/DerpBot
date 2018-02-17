@@ -1,1 +1,17 @@
 config.json
+.vs/DraxbotDSharpPlus/v15/Server/sqlite3/storage.ide
+.vs/DraxbotDSharpPlus/v15/Server/sqlite3/db.lock
+.vs/DraxbotDSharpPlus/v15/Server/sqlite3/storage.ide
+.vs/DraxbotDSharpPlus/v15/Server/sqlite3/db.lock
+.vs/DraxbotDSharpPlus/v15/.suo
+.vs/DerpBot/v15/Server/sqlite3/storage.ide-shm
+.vs/DerpBot/v15/Server/sqlite3/storage.ide
+.vs/DerpBot/v15/.suo
+.vs/DraxbotDSharpPlus/v15/Server/sqlite3/storage.ide
+/DraxBot-2.0/DraxbotDSharpPlus/bin
+DraxbotDSharpPlus/TempAudio
+*.dll
+*.pdb
+*.dll
+*.exe
+*.cache

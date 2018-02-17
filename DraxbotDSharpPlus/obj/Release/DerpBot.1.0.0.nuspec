@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DerpBot</id>
+    <version>1.0.0</version>
+    <authors>DerpBot</authors>
+    <owners>DerpBot</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="DSharpPlus.Interactivity" version="3.2.3" exclude="Build,Analyzers" />
+        <dependency id="DSharpPlus.CommandsNext" version="3.2.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NETCore.App" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="DSharpPlus" version="3.2.3" exclude="Build,Analyzers" />
+        <dependency id="DSharpPlus.VoiceNext" version="3.2.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxBot-2.0\DraxbotDSharpPlus\bin\Release\netcoreapp2.0\DerpBot.runtimeconfig.json" target="lib\netcoreapp2.0\DerpBot.runtimeconfig.json" />
+    <file src="C:\Users\Draxis\source\repos\DraxbotDSharpPlus\DraxBot-2.0\DraxbotDSharpPlus\bin\Release\netcoreapp2.0\DerpBot.dll" target="lib\netcoreapp2.0\DerpBot.dll" />
+  </files>
+</package>
